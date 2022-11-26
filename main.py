@@ -13,16 +13,14 @@ def input_data_from_CLI() -> dict:
     Asks for user input from the CLI.
     
     Returns:
-        A dictionary containing the information to be inserted EXCEPT the password, which will be encrypted.
+        A dictionary containing the information to be inserted.
     """
-    # ID = input("Enter the website ID: ")
     website = input("Enter the website: ")
     URL = input("Enter the URL: ")
     email = input("Enter the email: ")
     username = input("Enter the username: ")
     password = input("Enter the password for the site: ")
     data = {
-        # 'ID': ID,
         'website': website,
         'URL': URL,
         'email': email,
