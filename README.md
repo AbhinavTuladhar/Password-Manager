@@ -1,6 +1,6 @@
 # Password-Manager
 
-An password manager made using Python which uses the CLI for user interaction.
+A password manager made using Python which uses the CLI for user interaction.
 
 To use:
 
